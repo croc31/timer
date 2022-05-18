@@ -1,3 +1,22 @@
+
+/* Variáveis de cores da aplicação */
+:root {
+  --white: rgb(223, 219, 219);
+  --background: #f2f3f5;
+  --gray-line: #dcdde0;
+  --text: #666666;
+  --text-highlight: #b3b9ff;
+  --title: #2c2727;
+  --red: #ee1919;
+  --green: #5df537;
+  --orange: #f19d58fd;
+  --blue: #5965e0;
+  --blue-dark: #3a407e;
+  --blue-twitter: #2aa9e0;
+  --purple: #7C3FB6;
+  --pink: #e157ee;
+
+}
 html,
 body {
   padding: 0;

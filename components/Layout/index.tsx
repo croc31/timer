@@ -1,12 +1,12 @@
 import { Footer } from "../Footer";
-import {Header} from "../Header"
+import { Header } from "../Header";
 
-export function Layout(props){
-    return(
-        <>
-        <Header></Header>
-        {props.children}
-        <Footer></Footer>
-        </>
-    );
+export function Layout(props) {
+  return (
+    <div>
+      <Header />
+      {props.children}
+      <Footer />
+    </div>
+  );
 }

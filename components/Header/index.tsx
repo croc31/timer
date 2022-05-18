@@ -5,8 +5,7 @@ export function Header(props) {
   return (
     <Navbar bg="light" expand="md"  fixed="top" >
       <Container className={styles.Navbar}>
-        <Navbar.Brand className={styles.Logo} href="#home">React-Bootstrap</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Brand className={styles.Logo} href="#home">Timer</Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav  className={styles.Options}>
             <Nav.Link href="#home" className={styles.Item}>Home</Nav.Link>
